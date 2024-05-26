@@ -4,13 +4,52 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
     margin: 0;
 }
 
+/* Header and Navigation */
 header {
     display: flex;
     height: 69px;
     width: 100%;
     position: fixed;
     border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.Logo {
+    height: 50px;
+    margin-left: 10px;
+    width: auto;
+}
+
+.navigation {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+    color: aqua;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+/*Mission section */
