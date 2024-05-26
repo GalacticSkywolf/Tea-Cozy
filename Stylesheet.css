@@ -53,8 +53,15 @@ a:active {
 }
 
 /*Mission section */
-
-#ourmission {
-    background-image: url('\Resources\img-mission-background.jpg');
-    margin-top: 69px;
+.Mission {
+    background-image: url(./Resources/img-mission-background.jpg);
+    padding-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
