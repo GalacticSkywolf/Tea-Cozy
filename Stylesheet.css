@@ -55,13 +55,13 @@ a:active {
 
 /*Mission section */
 .Mission {
+    height: 700px;
+    max-width: 1200px;
     background-image: url(./Resources/img-mission-background.jpg);
     margin-left: auto;
     margin-right: auto;
-    height: 700px;
-    width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
 }
