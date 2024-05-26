@@ -10,7 +10,7 @@
 header {
     display: flex;
     height: 69px;
-    witdth: 100%;
+    width: 100%;
     position: fixed;
     border-bottom: 1px solid seashell;
 }
