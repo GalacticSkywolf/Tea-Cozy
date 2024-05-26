@@ -17,6 +17,7 @@ header {
     border-bottom: 1px solid seashell;
     align-items: center;
     justify-content: space-between;
+    z-index: 3;
 }
 
 .Logo {
@@ -55,7 +56,6 @@ a:active {
 /*Mission section */
 .Mission {
     background-image: url(./Resources/img-mission-background.jpg);
-    padding-top: 69px;
     margin-left: auto;
     margin-right: auto;
     height: 700px;
