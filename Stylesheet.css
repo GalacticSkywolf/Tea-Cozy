@@ -8,6 +8,14 @@
     margin: 0;
 }
 
+h2 {
+    padding: 10px;
+}
+
+h4 {
+    padding: 4px;
+}
+
 /* Header and Navigation */
 header {
     display: flex;
@@ -57,11 +65,17 @@ a:active {
 .Mission {
     height: 700px;
     max-width: 1200px;
+    border-top: 70px solid black;
     background-image: url(./Resources/img-mission-background.jpg);
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: center;
+}
+
+/* Featured section */
+.Featured {
+    display: grid;
 }
